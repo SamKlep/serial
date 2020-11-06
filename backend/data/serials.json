@@ -28,13 +28,6 @@
     "description": "Ted Bundy was an American serial killer, kidnapper, rapist, and necrophile. He operated in various states in the USA and confessed to killing 30 women. He revisited crime scenes and indulged in sexual acts with the corpses. Bundy decapitated at least 12 victims and kept their heads as trophies in his apartment. Aged 42, Bundy died on the electric chair in 1989. His own defence attorney said, \"Ted, was the very definition of heartless evil.\""
   },
   {
-    "name": "Ted Bundy",
-    "alias": "The Crazy Necrophile",
-    "bio": "",
-    "image": "https://image.scoopwhoop.com/w594/s3.scoopwhoop.com/aka/serialkillers/3.jpg.webp",
-    "description": "Ted Bundy was an American serial killer, kidnapper, rapist, and necrophile. He operated in various states in the USA and confessed to killing 30 women. He revisited crime scenes and indulged in sexual acts with the corpses. Bundy decapitated at least 12 victims and kept their heads as trophies in his apartment. Aged 42, Bundy died on the electric chair in 1989. His own defence attorney said, \"Ted, was the very definition of heartless evil.\""
-  },
-  {
     "name": "Jack the Ripper",
     "alias": "Jack the Ripper",
     "bio": "",
@@ -47,5 +40,103 @@
     "bio": "",
     "image": "https://image.scoopwhoop.com/w594/s3.scoopwhoop.com/aka/serialkillers/6.jpg.webp",
     "description": "Also dubbed by the media as the Le Bestia (The Beast), the Colombian is probably one of the world's worst serial killers. He confessed to the torture, rape and murder of 147 young boys. But the number is believed to be over 300. He was found guilty on 139 counts, which should amount to 1,853 years in prison. But Columbian law limits it to 30, which is what he was sentenced to in 1999. He may be released earlier for cooperation and good behaviour."
+  },
+  {
+    "name": "Ahmad Suradji",
+    "alias": "The Sorcerer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/7.jpg.webp",
+    "description": "The cattle-breeder from Indonesia admitted to killing 42 girls and women between 1986 to 1997. As a part of his ritual, he used to bury them waist deep. Bodies were found in a sugarcane field with their heads facing his house, which he believed would give him more power. Suradji was sentenced to death by a firing squad in 2008."
+  },
+  {
+    "name": "Alexander Pichushkin",
+    "alias": "The Chessboard Killer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/8.jpg.webp",
+    "description": "He was also known as the 'Chessboard Killer' and the 'Bitsa Park Maniac'. His targets were homeless men whom he lured to his house with vodka. He is believed to have killed 49 people, most of them with repeated hammer blows to their heads and inserted a vodka bottle into the gaping skull wound. He initially said he wanted to complete the number of squares on a chessboard and kill 64 people. Also, it is believed that he was in competition with another Russian serial killer, Andrei Chikatilo, who was convicted in 1992 for 53 killings. It was the very same year Alexander started killing."
+  },
+  {
+    "name": "Andrei Chikatilo",
+    "alias": "The Butcher",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/9.jpg.webp",
+    "description": "Andrei, the Butcher of Rostov, said, \"When I used my knife, it brought psychological relief. I know I have to be destroyed. I was a mistake of nature.\" He was responsible for sexually assaulting, killing and mutilating 53 women and children between 1978 and 1990 in Russia. After being captured in 1992, he was ordered to be killed by a firing squad in 1994."
+  },
+  {
+    "name": "Charles Edmund Cullen",
+    "alias": "The Angel Of Death",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/9.jpg.webp",
+    "description": "Cullen worked as a nurse in many hospitals but kept switching jobs as he was fired for suspicious behaviour from many of them. He confessed to murdering 40 elderly patients in New Jersey from 1984 to 2003. He did this by poisoning his patients to death with unprescribed medication. He stated that he wanted to relieve the patients from their suffering much like an angel would. Experts say he had more than 300 victims. Cullen has been imprisoned for life."
+  },
+  {
+    "name": "Patrick Wayne Kearney",
+    "alias": "The Trash Bag Killer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/11.jpg.webp",
+    "description": "Also called the Trash Bag Killer, he operated between 1975 -1977. Kearney had a high IQ but once captured, he confessed to 32 murders of homosexual men. Kearney would dump their bodies along California highways and wrapped them in trash bags thus earning the name. He was convicted of 21 murders, but was sentenced to life because of his confession."
+  },
+  {
+    "name": "Dennis Raider",
+    "alias": "BTK Murderer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/12.jpg.webp",
+    "description": "Between 1974 and 1991, Dennis Raider murdered 10 people in Wichita, Kansas. He even sent letters to police taunting them under his alias name BTK which stood for ‘Bind, Torture, Kill’. His technique was to stalk his victims before breaking into their homes, binding their limbs and finally strangling them. He disappeared in 1988, but remerged in around 2005 when he sent a floppy disc to the press which helped in tracing him. Rader confessed to his crimes and is serving 10 consecutive life sentences with the earliest release date possible on February 26, 2180."
+  },
+  {
+    "name": "John George Haigh",
+    "alias": "Acid Bath Murderer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/13.jpg.webp",
+    "description": "John George Haigh was also known as the 'Acid Bath Murderer' and operated during the 1940s. He was convicted for the murders of 6 people, although he claimed to have killed 9. He was a professional conman, who lured wealthy people by charm and deceit, into to a warehouse where he shot them. Later he would dissolve their bodies in sulphuric acid then forge papers to sell their possessions and collect their life savings. He was sentenced to death and hanged in 1949."
+  },
+  {
+    "name": "Paul Knowles",
+    "alias": "The Casanova Killer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/14.jpg.webp",
+    "description": "Also known as the Casanova Killer, Knowles used his charm into making victims believe him and later killed them. He killed a total of 18 people, although the count might be more. His victims included men, women and children. The man from Florida was eventually killed by an FBI agent in 1974 when he was trying to escape."
+  },
+  {
+    "name": "William Bonin",
+    "alias": "The Freeway Killer",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/15.jpg.webp",
+    "description": "Bonin was also known as the 'Freeway Killer'. Between 1979 and 1980, he raped, tortured and murdered at least 21 young men.  Bonin would dump their bodies along freeways in South California. After being convicted for 14 of his killings, he was executed by lethal injection in 1996. His sadistic side was still seen during his prison sentence where he corresponded with many of his victims' families about how their children reacted to his torture."
+  },
+  {
+    "name": "Aileen Wuornos",
+    "alias": "The Monster",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/16.jpg.webp",
+    "description": "Her story allowed Charlize Theron to win an Academy Award. She played Aileen in the 2003 movie, 'Monster'. While working as a prostitute, Aileen killed seven men in Florida for their money and confessed to shooting them, claiming all of them had either raped or attempted to rape her. She died in 1992 by lethal injection."
+  },
+  {
+    "name": "Jeffrey Dahmer",
+    "alias": "The Milwaukee Cannibal",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/17.jpg.webp",
+    "description": "Jeffrey Dahmer was responsible for dismembering 17 men and boys between 1978 and 1991. Dahmer also indulged in necrophilia and cooking body parts of his victim, then eating them. He was eventually caught after a prospective victim managed to overpower him. Dahmer was sentenced to 15 terms of life imprisonment in 1992. But he was beaten to death by a fellow prisoner at the Columbia Correctional Institution two years later."
+  },
+  {
+    "name": "John Wayne Gacy",
+    "alias": "The Burial King",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/18.jpg.webp",
+    "description": "Gacy operated between 1972 and 1978 in Chicago, Illinois. He sexually assaulted and murdered 33 teenage boys and young men. Gacy would lure his victims to his home with the promise of work or money before murdering them by strangulation using a tourniquet. He buried 26 of his victims in the crawl space under his house and later disposed the bodies off in the Des Plaines River. Convicted of 33 murders, Gacy was sentenced to death and spent 14 years on death row before he was executed by lethal injection on May 10, 1994."
+  },
+  {
+    "name": "Tommy Lynn Sells",
+    "alias": "The Brutal Texan",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/19.JPG.webp",
+    "description": "Tommy Lynn Sells is perhaps the most dangerous Texan in history. He claimed to have killed at least 70 people. He brutally murdered people between 1985 and 1999 including stabbing a 13-year-old girl 16 times. Sells broke into the bedroom of a 10-year-old girl, stabbing her and left her to die. But despite her injures, she managed to survive and gave a detailed description of Sells to the police. He was sentenced to death & remains on death row in a high security prison in Texas."
+  },
+  {
+    "name": "Pedro Rodriguez Filho",
+    "alias": "The Brazilian Maniac",
+    "bio": "",
+    "image": "https://image.scoopwhoop.com/w550/s3.scoopwhoop.com/aka/serialkillers/20.jpg.webp",
+    "description": "Arrested in 1973, Pedro was later convicted in 2003 for the murder of at least 71 people and was then sentenced to 128 years imprisonment. He was only 14 when he committed his first killing. He wreaked havoc on local drug dealers, in revenge for his girlfriend's killing while he was imprisoned. In prison, he even executed his own father, who was also serving time for murder. Filho went onto kill at least 47 inmates while imprisoned. His continued killings have led to his sentence to be increased to 400 years imprisonment."
   }
 ]
