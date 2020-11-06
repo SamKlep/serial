@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div>
       <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
-        <Navbar.Brand href='#home'>Serial Killers</Navbar.Brand>
+        <Navbar.Brand href='/'>
+          <h1 className='logo'>Serial Killers</h1>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
