@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/ui/Header'
+import HomeScreen from './components/screens/HomeScreen'
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <div>
         <Header />
         <div className='container mt-4 text-center'>
-          <h1>Serial Killers</h1>
+          <HomeScreen />
         </div>
       </div>
     </>
