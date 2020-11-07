@@ -5,7 +5,11 @@ import React from 'react'
 const FungusListItem = ({ serial }) => {
   return (
     <div className='card'>
-      <div className='card-title'>{serial.name}</div>
+      <div className='card-title'>
+        <strong>
+          <h3>{serial.alias}</h3>
+        </strong>
+      </div>
       <div className='card-image'>
         <img src={serial.image} alt='serial' />
       </div>

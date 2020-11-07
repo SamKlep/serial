@@ -29,9 +29,7 @@ const HomeContainer = () => {
   return (
     <div className='container mt-3'>
       <h1>Serial Killers</h1>
-      <p className='lead'>
-        Enter the name of a fungus in question or filter by type
-      </p>
+
       <br />
       <section className='cards'>
         {data.map((serial, _id) => (
