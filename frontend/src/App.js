@@ -1,17 +1,22 @@
 import './App.css'
 import Header from './components/ui/Header'
 import HomeScreen from './components/screens/HomeScreen'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Container } from 'react-bootstrap'
 
 function App() {
   return (
-    <>
+    <Router>
       <div>
         <Header />
-        <div className='container mt-4 text-center'>
-          <HomeScreen />
-        </div>
+        <Container>
+        <Route path='/' component={HomeScreen} exact />
+          <div className='mt-4 text-center'>
+            <HomeScreen />
+          </div>
+        </Container>
       </div>
-    </>
+    </Router>
   )
 }
 

@@ -3,6 +3,7 @@ import axios from 'axios'
 import SerialListItem from '../serials/SerialListItem'
 
 import '../../App.css'
+import { Row, Col } from 'react-bootstrap'
 
 const HomeContainer = () => {
   const [data, setData] = useState([])
@@ -29,13 +30,16 @@ const HomeContainer = () => {
   return (
     <div className='container mt-3'>
       <h1>Serial Killers</h1>
-
-      <br />
-      <section className='cards'>
-        {data.map((serial, _id) => (
-          <SerialListItem key={_id} serial={serial} />
-        ))}
-      </section>
+      <Row>
+        <br />
+        <Col>
+          <section className='cards'>
+            {data.map((serial, _id) => (
+              <SerialListItem key={_id} serial={serial} />
+            ))}
+          </section>
+        </Col>
+      </Row>
     </div>
   )
 }

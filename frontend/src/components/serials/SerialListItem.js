@@ -1,20 +1,24 @@
 import React from 'react'
+import { Card } from 'react-bootstrap'
 
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const FungusListItem = ({ serial }) => {
   return (
-    <div className='card'>
-      <div className='card-title'>
-        <strong>
-          <h3>{serial.alias}</h3>
-        </strong>
-      </div>
-      <div className='card-image'>
-        <img src={serial.image} alt='serial' />
-      </div>
-      <div className='card-body'>{serial.description}</div>
-    </div>
+    <Card>
+      <Link to={`/serials/${serial._id}`}>
+        <Card.Img src={serial.image} alt='serial' />
+      </Link>
+      <Card.Body>
+        <Link to={`/serials/${serial._id}`}>
+          <Card.Title as='div'>
+            <strong>{serial.alias}</strong>
+          </Card.Title>
+        </Link>
+
+        <Card.Text as='h3'>{serial.description}</Card.Text>
+      </Card.Body>
+    </Card>
   )
 }
 
