@@ -4,7 +4,7 @@ const dotenv = require('dotenv')
 const morgan = require('morgan')
 const colors = require('colors')
 
-const connectDB = require('./backend/config/db')
+const connectDB = require('./config/db')
 
 // Load env vars
 dotenv.config()
@@ -13,7 +13,7 @@ dotenv.config()
 connectDB()
 
 // Route files
-const serials = require('./backend/routes/serialRoutes')
+const serials = require('./routes/serialRoutes')
 
 const app = express()
 
