@@ -30,6 +30,11 @@ if (process.env.NODE_ENV === 'production') {
 // Body parser
 app.use(express.json())
 
+// Dev logging middleware
+if (process.env.NODE_ENV === 'development') {
+  app.use(morgan('dev'))
+}
+
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')))
 
