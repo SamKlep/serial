@@ -31,7 +31,12 @@ const SerialScreen = ({ match }) => {
           <ListGroup variant='flush'>
             <ListGroup.Item>
               <strong>
-                <h3>{serial.alias}</h3>
+                <h3>{serial.name}</h3>
+              </strong>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <strong>
+                <h5>{serial.alias}</h5>
               </strong>
             </ListGroup.Item>
             <ListGroup.Item>
