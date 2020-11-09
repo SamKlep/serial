@@ -3,7 +3,7 @@ import axios from 'axios'
 import SerialListItem from '../serials/SerialListItem'
 
 import '../../App.css'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Jumbotron } from 'react-bootstrap'
 
 const HomeContainer = () => {
   const [data, setData] = useState([])
@@ -29,7 +29,10 @@ const HomeContainer = () => {
 
   return (
     <div className='container mt-3'>
-      <h1>Serial Killers</h1>
+      <Jumbotron>
+        <h1 className='text-center'>Top 20 Serial Killers</h1>
+        <p className='lead'></p>
+      </Jumbotron>
       <Row>
         <br />
         <Col>
