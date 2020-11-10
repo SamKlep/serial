@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 const Header = () => {
   return (
@@ -11,8 +11,31 @@ const Header = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href='/psychology'>Psychology</Nav.Link>
-            <Nav.Link href='/unsolved'>Unsolved</Nav.Link>
+            <NavDropdown title='Psychology' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='/whatis'>
+                What Is a Serial killer?
+              </NavDropdown.Item>
+              <NavDropdown.Item href='/psychology'>
+                Psychology of a Killer
+              </NavDropdown.Item>
+              <NavDropdown.Item href='/types'>
+                Types of Serial Killers
+              </NavDropdown.Item>
+              <NavDropdown.Item href='/understanding'>
+                Understanding Serial Killers
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+            </NavDropdown>
+            <NavDropdown title='Unsolved' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='/unsolved'>
+                Top 10 Unsolved Mysteries
+              </NavDropdown.Item>
+              <NavDropdown.Item href='/explain'>
+                No Explanation
+              </NavDropdown.Item>
+
+              <NavDropdown.Divider />
+            </NavDropdown>
           </Nav>
           <Nav>
             <Nav.Link href='/contact'>Contact</Nav.Link>
