@@ -10,7 +10,7 @@ const SerialScreen = ({ match }) => {
     const fetchSerials = async () => {
       const { data } = await axios.get(`/api/v1/serials/${match.params.id}`)
 
-      console.log(data)
+      // console.log(data)
       setSerial(data)
     }
 

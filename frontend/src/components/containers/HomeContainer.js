@@ -15,7 +15,7 @@ const HomeContainer = () => {
       .get(`/api/v1/serials`)
       .then((response) => {
         setData(response.data)
-        console.log(response.data)
+        // console.log(response.data)
         setLoading(false)
       })
       .catch((err) => {
@@ -28,10 +28,9 @@ const HomeContainer = () => {
   }
 
   return (
-    <div className='container mt-3'>
+    <div className='container mt-3 text-center'>
       <Jumbotron>
-        <h1 className='text-center'>Top 20 Serial Killers</h1>
-        <p className='lead'></p>
+        <h1 className='text-danger'>Top 20 Serial Killers</h1>
       </Jumbotron>
       <Row>
         <br />
