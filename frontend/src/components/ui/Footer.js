@@ -7,7 +7,7 @@ const Footer = () => {
       className='bg-secondary'
       variant='light'
       style={{
-        height: '400px',
+        height: '200px',
         marginTop: '5px',
       }}></Nav>
   )
