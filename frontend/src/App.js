@@ -8,6 +8,7 @@ import SerialScreen from './components/screens/SerialScreen.js'
 import UnsolvedScreen from './components/screens/UnsolvedScreen'
 import PsychologyScreen from './components/screens/PsychologyScreen'
 import ContactScreen from './components/screens/ContactScreen'
+import WhatIs from './components/screens/WhatIs'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='/' component={HomeScreen} exact />
             <Route path='/serials/:id' component={SerialScreen} />
             <Route path='/unsolved' component={UnsolvedScreen} />
+            <Route path='/whatis' component={WhatIs} />
             <Route path='/psychology' component={PsychologyScreen} />
             <Route path='/contact' component={ContactScreen} />
           </Switch>
