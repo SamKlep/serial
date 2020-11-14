@@ -7,7 +7,12 @@ const SerialListItem = ({ serial }) => {
   return (
     <Card>
       <Link to={`/serials/${serial._id}`}>
-        <Card.Img src={serial.image} alt='serial' />
+        <Card.Img
+          className='card-img-top'
+          src={serial.image}
+          alt='serial'
+          fluid
+        />
       </Link>
       <Card.Body>
         <Link to={`/serials/${serial._id}`}>
