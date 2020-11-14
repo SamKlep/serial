@@ -9,6 +9,7 @@ import UnsolvedScreen from './components/screens/UnsolvedScreen'
 import PsychologyScreen from './components/screens/PsychologyScreen'
 import ContactScreen from './components/screens/ContactScreen'
 import WhatIs from './components/screens/WhatIs'
+import TypesScreen from './components/screens/TypesScreen'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='/serials/:id' component={SerialScreen} />
             <Route path='/unsolved' component={UnsolvedScreen} />
             <Route path='/whatis' component={WhatIs} />
+            <Route path='/types' component={TypesScreen} />
             <Route path='/psychology' component={PsychologyScreen} />
             <Route path='/contact' component={ContactScreen} />
           </Switch>
