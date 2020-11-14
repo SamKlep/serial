@@ -10,7 +10,7 @@ const WhatIs = () => {
 
       <Container className='mb-3'>
         <Row>
-          <Col md={6}>
+          <Col md={6} className='pb-3'>
             <Card>
               <Card.Text>
                 <p className='lead p-5'>
@@ -44,11 +44,11 @@ const WhatIs = () => {
       </Container>
       <Container>
         <Row>
-          <Col>
-            <Card md={4}>
+          <Col md={6} className='pb-3'>
+            <Card>
               {' '}
               <Card.Text>
-                <p className='lead p-4'>
+                <p className='lead p-5'>
                   Although a serial killer is a distinct classification that
                   differs from that of a mass murderer, spree killer, or
                   contract killer, there may be conceptual overlaps between them
@@ -58,8 +58,12 @@ const WhatIs = () => {
               </Card.Text>
             </Card>
           </Col>
-          <Col>
-            <Image src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Burke_Murdering_Margery_Campbell.jpg/480px-Burke_Murdering_Margery_Campbell.jpg' />
+
+          <Col md={6}>
+            <Image
+              src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Burke_Murdering_Margery_Campbell.jpg/480px-Burke_Murdering_Margery_Campbell.jpg'
+              fluid
+            />
           </Col>
         </Row>
       </Container>
