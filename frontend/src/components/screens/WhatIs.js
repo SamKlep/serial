@@ -5,15 +5,15 @@ const WhatIs = () => {
   return (
     <div>
       <Jumbotron className='text-center'>
-        <h1 className='text-danger'>What is a Serial killer?</h1>
+        <h1 className='text-danger'>What is a Serial Killer?</h1>
       </Jumbotron>
 
       <Container className='mb-3'>
         <Row>
-          <Col md={6} className='pb-3'>
+          <Col lg={6} className='pb-3'>
             <Card>
               <Card.Text>
-                <p className='lead p-5'>
+                <p className='what-content lead p-5'>
                   A serial killer is typically a person who murders three or
                   more people, usually in service of abnormal psychological
                   gratification, with the murders taking place over more than a
@@ -24,10 +24,10 @@ const WhatIs = () => {
               </Card.Text>
             </Card>
           </Col>
-          <Col md={6}>
+          <Col lg={6}>
             <Card>
               <Card.Text>
-                <p className='lead p-4'>
+                <p className='what-content lead p-4'>
                   Psychological gratification is the usual motive for serial
                   killing, and most serial killings involve sexual contact with
                   the victim, but the FBI states that the motives of serial
@@ -44,7 +44,7 @@ const WhatIs = () => {
       </Container>
       <Container>
         <Row>
-          <Col md={6} className='pb-3'>
+          <Col lg={6} className='pb-3'>
             <Card>
               {' '}
               <Card.Text>
@@ -59,7 +59,7 @@ const WhatIs = () => {
             </Card>
           </Col>
 
-          <Col md={6}>
+          <Col lg={6}>
             <Image
               src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Burke_Murdering_Margery_Campbell.jpg/480px-Burke_Murdering_Margery_Campbell.jpg'
               fluid

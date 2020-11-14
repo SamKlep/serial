@@ -9,6 +9,7 @@ import UnsolvedScreen from './components/screens/UnsolvedScreen'
 import PsychologyScreen from './components/screens/PsychologyScreen'
 import ContactScreen from './components/screens/ContactScreen'
 import WhatIs from './components/screens/WhatIs'
+import UnderstandingScreen from './components/screens/UnderstandingScreen'
 import TypesScreen from './components/screens/TypesScreen'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path='/unsolved' component={UnsolvedScreen} />
             <Route path='/whatis' component={WhatIs} />
             <Route path='/types' component={TypesScreen} />
+            <Route path='/understanding' component={UnderstandingScreen} />
             <Route path='/psychology' component={PsychologyScreen} />
             <Route path='/contact' component={ContactScreen} />
           </Switch>

@@ -33,16 +33,29 @@ body {
 main {
   min-height: 80vh;
 }
+@media (max-width: 900px) {
+  /* .what-content {
+    font-size: 16px !important;
+  } */
+}
 
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  /* .what-content {
+    font-size: 16px !important;
+  } */
 }
 
 @media (max-width: 500px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+
+  .what-content {
+    font-size: 17px !important;
+    padding-bottom: 4px !important;
   }
 }
 

@@ -72,7 +72,7 @@ const TypesScreen = () => {
                 variant='link'
                 className='bg-warning'
                 eventKey='0'>
-                Thrill seekers
+                Thrill Seekers
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey='0'>
@@ -100,7 +100,7 @@ const TypesScreen = () => {
                 variant='link'
                 className='bg-warning'
                 eventKey='1'>
-                Mission-oriented
+                Mission-Oriented
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey='1'>
@@ -124,7 +124,7 @@ const TypesScreen = () => {
                 variant='link'
                 className='bg-warning'
                 eventKey='2'>
-                Visionary serial killers
+                Visionary Serial Killers
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey='2'>
