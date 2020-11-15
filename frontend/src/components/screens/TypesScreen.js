@@ -1,4 +1,5 @@
 import React from 'react'
+import Thrill from '../serials/Thrill'
 import {
   Jumbotron,
   Container,
@@ -8,7 +9,12 @@ import {
   Card,
   Accordion,
   Button,
+  ListGroup,
+  Tab,
 } from 'react-bootstrap'
+import Mission from '../serials/Mission'
+import Visionary from '../serials/Visionary'
+import Power from '../serials/Power'
 
 const TypesScreen = () => {
   return (
@@ -17,20 +23,20 @@ const TypesScreen = () => {
         <h1 className='text-danger'>Types of Serial Killers</h1>
       </Jumbotron>
       <Container>
-        <Row>
-          <Col md={4}>
+        <Row className='mt-5 mb-3'>
+          <Col>
             <Image
               src='https://sites.google.com/site/psychologyofpsychopaths4a/_/rsrc/1324072627841/what-is-the-profile-of-a-serial-killer-1/what-are-the-different-types-of-serial-killers/14_2aifq1susllww4scosok88s0g_783elejbp0kkw800soc4ssscw_th.jpg?height=233&width=269'
               fluid
             />
           </Col>
-          <Col md={4}>
+          <Col>
             <Image
               src='https://sites.google.com/site/psychologyofpsychopaths4a/_/rsrc/1324072718810/what-is-the-profile-of-a-serial-killer-1/what-are-the-different-types-of-serial-killers/2191753_f520.jpg?height=233&width=269'
               fluid
             />
           </Col>
-          <Col md={4}>
+          <Col>
             <Image
               src='https://sites.google.com/site/psychologyofpsychopaths4a/_/rsrc/1324072760699/what-is-the-profile-of-a-serial-killer-1/what-are-the-different-types-of-serial-killers/Gaffney-serial-killer.jpg?height=199&width=306'
               fluid
@@ -40,7 +46,7 @@ const TypesScreen = () => {
         <br />
         <Row>
           <Col>
-            <p>
+            <p className='lead mb-5'>
               Currently, there are four main types of serial killers listed,
               with many different subcategories listed under each. Depending on
               the nature of their crime, they are either categorized as
@@ -63,111 +69,46 @@ const TypesScreen = () => {
           </Col>
         </Row>
       </Container>
+      <hr className='bg-danger mt-5 mb-5' />
       <Container>
-        <Accordion defaultActiveKey='0'>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle
-                as={Button}
-                variant='link'
-                className='bg-warning'
-                eventKey='0'>
-                Thrill Seekers
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey='0'>
-              <Card.Body>
-                Serial killers that see outsmarting the law as some sort of
-                amusement. They enjoy attention from the media and they also
-                enjoy being pursued by the police. They can be distinguished
-                from other serial killers because of the fact that they send
-                messages to others and they keep detailed records of their
-                killings. Because of this, it is logical to say that most thrill
-                seekers can be categorized as organized, but at the same time
-                they do not always plan everything out in advance. For that,
-                they are also seen as unorganized killers. Thrills seekers
-                typically use weapons and/or rape their victims before killing
-                them. After that, they hide the victim's corpse and they move on
-                to their next victim, that is, unless of course they are caught
-                in the act of doing so.{' '}
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle
-                as={Button}
-                variant='link'
-                className='bg-warning'
-                eventKey='1'>
-                Mission-Oriented
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey='1'>
-              <Card.Body>
-                Serial killers are killers that feel that they are doing society
-                a favor by ridding it of certain people; these can include young
-                women, prostitutes, drug dealers, or homosexuals, people they
-                feel that society could do without. These killers are generally
-                not psychotic. Some see themselves as trying to change society.
-                They always have a controlled crime scene, hence categorizing
-                them as organized makes them much easier to track. However,
-                since these killers always go after specific victims, this makes
-                them much easier to track down.
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle
-                as={Button}
-                variant='link'
-                className='bg-warning'
-                eventKey='2'>
-                Visionary Serial Killers
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey='2'>
-              <Card.Body>
-                People that occaisionally suffer from psychotic breaks from
-                society. They sometimes believe they are another person, or they
-                are compelled to murder by higher entities such as God or the
-                Devil. In fact, the two most common subcategories for visionary
-                serial killers are demon-mandated and God-mandated. David
-                Berkowitz is an example of such a killer. He had claimed that a
-                demon transmitted orders to him through his neighbor's dog that
-                told him to kill. Since visionary killers tend to be more
-                unorganized than other killers, they are very easy to track
-                down.
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Card.Header>
-              <Accordion.Toggle
-                as={Button}
-                variant='link'
-                className='bg-warning'
-                eventKey='3'>
-                Power and Control
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey='3'>
-              <Card.Body>
-                Serial killers enjoy their victim's terror, suffering and
-                screaming. These killers tend to be very organized and they
-                usually have a history of childhood abuse, which left them
-                feeling powerless and inadequete as adults. Many of these
-                killers also sexually abuse their victims, but they are not
-                motivated by feelings of lust. To them, rape is simply another
-                form of dominating the victim.
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
+        <Tab.Container id='list-group-tabs-example' defaultActiveKey='#link1'>
+          <Row>
+            <Col sm={4}>
+              <ListGroup>
+                <ListGroup.Item action href='#link1'>
+                  Thrill Seekers
+                </ListGroup.Item>
+                <ListGroup.Item action href='#link2'>
+                  Mission-Oriented
+                </ListGroup.Item>
+                <ListGroup.Item action href='#link3'>
+                  Visionary Serial Killers
+                </ListGroup.Item>
+                <ListGroup.Item action href='#link4'>
+                  Power and Control
+                </ListGroup.Item>
+              </ListGroup>
+            </Col>
+            <Col sm={8}>
+              <Tab.Content>
+                <Tab.Pane eventKey='#link1'>
+                  <Thrill />
+                </Tab.Pane>
+                <Tab.Pane eventKey='#link2'>
+                  <Mission />
+                </Tab.Pane>
+                <Tab.Pane eventKey='#link3'>
+                  <Visionary />
+                </Tab.Pane>
+                <Tab.Pane eventKey='#link4'>
+                  <Power />
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container>
       </Container>
-      <br />
-      <br />
+      <hr className='bg-danger mt-5 mb-5' />
       <Container>
         <Row className='text-center'>
           <Col>
@@ -184,7 +125,7 @@ const TypesScreen = () => {
       <br />
       <br />
       <Container>
-        <Row>
+        <Row className='mb-5'>
           <Col>
             <p>
               Besides these four basic categories listed, there are also dozens

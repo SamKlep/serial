@@ -11,7 +11,7 @@ const PsychologyScreens = () => {
           of a serial killer.
         </p>
       </Jumbotron>
-      <hr className='bg-secondary' />
+      <hr className='bg-danger' />
       <Container className='mt-5'>
         <Row>
           <Col lg={6}>
@@ -128,7 +128,7 @@ const PsychologyScreens = () => {
           </Col>
         </Row>
       </Container>
-      <hr className='bg-secondary' />
+      <hr className='bg-danger' />
       <Container className='mx-auto w-75 mt-5 mb-5'>
         <Row>
           <Col lg={6}>
@@ -181,7 +181,7 @@ const PsychologyScreens = () => {
             </div>
           </Col>
         </Row>
-        <hr className='bg-secondary' />
+        <hr className='bg-danger' />
         <br />
         <Row className='justify-content-center mb-5'>
           <Col md={4}>
@@ -238,7 +238,7 @@ const PsychologyScreens = () => {
           </Col>
         </Row>
       </Container>
-      <hr className='bg-secondary' />
+      <hr className='bg-danger' />
       <Container className='mx-auto mt-5 mb-5'>
         <Row>
           <Col lg={6}>
@@ -327,7 +327,7 @@ const PsychologyScreens = () => {
           </Col>
         </Row>
       </Container>
-      <hr className='bg-secondary' />
+      <hr className='bg-danger' />
       <Container className='mt-5'>
         <Row>
           <Col>

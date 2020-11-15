@@ -11,6 +11,7 @@ const UnderstandingScreen = () => {
         <Row>
           <Col md={3}>
             <Image
+              className='mb-3'
               src='https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2019-09/jeffrey_dahmer_milwaukee_police_1991_mugshot.jpg?itok=cGTAcGpu'
               fluid
             />
@@ -55,9 +56,10 @@ const UnderstandingScreen = () => {
           </Col>
         </Row>
       </Container>
+      <hr className='bg-danger mt-3 mb-5' />
       <Container>
-        <Row>
-          <Col md={9}>
+        <Row className='align-items-center'>
+          <Col md={9} className='mb-3'>
             <p className='lead'>
               A neophyte serial killer who was traumatized as a child will seek
               to avoid painful relationships with other human beings as an
@@ -91,11 +93,14 @@ const UnderstandingScreen = () => {
           </Col>
           <Col md={3}>
             <Image
+              className='mb-3'
+              style={{ height: '500px' }}
               src='https://i.guim.co.uk/img/media/a56b1c56af6d82aa6cae629e709c94b11ff37334/0_0_1702_3000/master/1702.jpg?width=1225&quality=85&auto=format&fit=max&s=fdd0a2f7ba41da83269ef9177042cdc5'
               fluid
             />
           </Col>
         </Row>
+        <hr className='bg-danger mt-3 mb-5' />
         <Row>
           <Col>
             <p>
