@@ -261,7 +261,7 @@ const ExplainScreen = () => {
               as large as Jupiter would only block 1% of a star the size of KIC
               8462852.
             </p>
-            <p className=' ml-5'>
+            <p className=' ml-5 mb-5'>
               Some have suggested it's a Dyson Swarm, a less complete version of
               a megastructure known as a Dyson Sphere, which surrounds a star
               and harvests its energy output. We'll probably get a better idea
@@ -272,7 +272,6 @@ const ExplainScreen = () => {
           </Col>
         </Row>
       </Container>
-      <hr className='bg-info mt-5 mb-5' />
     </div>
   )
 }

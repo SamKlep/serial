@@ -423,7 +423,7 @@ const UnsolvedScreen = () => {
         </Row>
         <Row>
           <Col className='text-center'>
-            <p className='mb-3'>
+            <p className='mb-5'>
               Although new research will provide more insight, scholars think
               it's unlikely they will ever fully know what Jesus was really
               like.
@@ -431,9 +431,6 @@ const UnsolvedScreen = () => {
           </Col>
         </Row>
       </Container>
-      <br />
-      <hr className='bg-secondary mb-5' />
-      <br />
     </div>
   )
 }

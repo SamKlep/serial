@@ -6,9 +6,6 @@ import {
   Row,
   Col,
   Image,
-  Card,
-  Accordion,
-  Button,
   ListGroup,
   Tab,
 } from 'react-bootstrap'
@@ -74,7 +71,7 @@ const TypesScreen = () => {
         <Tab.Container id='list-group-tabs-example' defaultActiveKey='#link1'>
           <Row>
             <Col sm={4}>
-              <ListGroup>
+              <ListGroup className='mb-3'>
                 <ListGroup.Item action href='#link1'>
                   Thrill Seekers
                 </ListGroup.Item>
@@ -127,7 +124,7 @@ const TypesScreen = () => {
       <Container>
         <Row className='mb-5'>
           <Col>
-            <p>
+            <p className='lead'>
               Besides these four basic categories listed, there are also dozens
               of other subcategories that make serial killers unique based on
               their killing rituals and the nature of their crimes. For example,
@@ -144,8 +141,6 @@ const TypesScreen = () => {
               a time, killing with no specific targets in mind, but rather just
               to kill for their own enjoyment.
             </p>
-          </Col>
-          <Col>
             <p>
               Serial killlers can also keep mementos of their victims once they
               are dead. Robert Keppel, an American detective and law enforcement

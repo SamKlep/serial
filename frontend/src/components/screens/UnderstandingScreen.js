@@ -5,7 +5,7 @@ const UnderstandingScreen = () => {
   return (
     <div>
       <Jumbotron className='text-center'>
-        <h1 className='text-danger'>Understanding a Serial Killer</h1>
+        <h1 className='text-danger'>Understanding Serial Killers</h1>
       </Jumbotron>
       <Container>
         <Row>
@@ -101,9 +101,9 @@ const UnderstandingScreen = () => {
           </Col>
         </Row>
         <hr className='bg-danger mt-3 mb-5' />
-        <Row>
+        <Row className='mb-5'>
           <Col>
-            <p>
+            <p className='lead'>
               At a symposium on serial homicide in 2005, the FBI and other
               experts in criminology and forensic psychology had an in-depth
               discussion about the motivations of serial killers. The attendees
