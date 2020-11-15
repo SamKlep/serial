@@ -31,7 +31,7 @@ const Header = () => {
                 Top 10 Unsolved Mysteries
               </NavDropdown.Item>
               <NavDropdown.Item href='/explain'>
-                No Explanation
+                Space Mysteries With No Explanation
               </NavDropdown.Item>
 
               <NavDropdown.Divider />

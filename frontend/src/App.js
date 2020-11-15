@@ -10,6 +10,7 @@ import PsychologyScreen from './components/screens/PsychologyScreen'
 import ContactScreen from './components/screens/ContactScreen'
 import WhatIs from './components/screens/WhatIs'
 import UnderstandingScreen from './components/screens/UnderstandingScreen'
+import ExplainScreen from './components/screens/ExplainScreen'
 import TypesScreen from './components/screens/TypesScreen'
 import ScrollUpButton from './components/ui/ScrollUpButton'
 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/whatis' component={WhatIs} />
             <Route path='/types' component={TypesScreen} />
             <Route path='/understanding' component={UnderstandingScreen} />
+            <Route path='/explain' component={ExplainScreen} />
             <Route path='/psychology' component={PsychologyScreen} />
             <Route path='/contact' component={ContactScreen} />
           </Switch>

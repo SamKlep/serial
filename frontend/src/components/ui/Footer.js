@@ -40,7 +40,7 @@ const Footer = () => {
                 <a href='/unsolved'>Top 10 Unsolved Mysteries</a>
               </li>
               <li>
-                <a href='/explain'>No Explanation</a>
+                <a href='/explain'>Space Mysteries With No Explanation</a>
               </li>
             </ul>
           </div>
