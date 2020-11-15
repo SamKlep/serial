@@ -11,8 +11,9 @@ const UnsolvedScreen = () => {
         <Row className='text-center'>
           <Col>
             <Image
+              style={{ height: '550px', width: '500px' }}
               fluid
-              className='mx-auto'
+              className='mx-auto mt-5'
               src='https://cdn.mos.cms.futurecdn.net/48KgZvQUJqk5Umf9oizJqd-970-80.jpg.webp'
             />
           </Col>
@@ -388,6 +389,7 @@ const UnsolvedScreen = () => {
           <Col className='text-center'>
             <h3 className='mt-5 mb-5'>What was Jesus really like?</h3>
             <Image
+              style={{ height: '600px', width: '550px' }}
               fluid
               className='mx-auto mb-5'
               alt='Jesus'
