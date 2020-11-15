@@ -11,6 +11,7 @@ import ContactScreen from './components/screens/ContactScreen'
 import WhatIs from './components/screens/WhatIs'
 import UnderstandingScreen from './components/screens/UnderstandingScreen'
 import TypesScreen from './components/screens/TypesScreen'
+import ScrollUpButton from './components/ui/ScrollUpButton'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           </Switch>
         </Container>
       </main>
+      <ScrollUpButton></ScrollUpButton>
       <Footer />
     </Router>
   )
