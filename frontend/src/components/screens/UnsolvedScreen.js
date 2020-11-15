@@ -5,10 +5,10 @@ const UnsolvedScreen = () => {
   return (
     <div>
       <Jumbotron className='text-center'>
-        <h1 className='text-danger'>Unsolved Mysteries</h1>
+        <h1 className='text-danger'>Top 10 Unsolved Mysteries</h1>
       </Jumbotron>
       <Container fluid>
-        <Row>
+        <Row className='text-center'>
           <Col>
             <Image
               fluid
@@ -21,15 +21,15 @@ const UnsolvedScreen = () => {
       <Container fluid className='mt-5'>
         <Row>
           <Col>
-            <p className='lead w-75 text-center'>
+            <p className='lead text-center m-5'>
               There are some historical mysteries that may never be solved.
               Sometimes, that's because the relevant excavated material has been
               lost or an archaeological site has been destroyed. Other times,
               it's because new evidence is unlikely to come forward or the
               surviving evidence is too vague to lead scholars to a consensus.
               The lack of answers only makes these enigmas more intriguing.
-              Here, Live Science takes a look at 10 of these historical
-              questions that may never have definitive explanations.
+              Let's take a look at 10 of these historical questions that may
+              never have definitive explanations.
             </p>
           </Col>
         </Row>
@@ -39,26 +39,19 @@ const UnsolvedScreen = () => {
       <br />
 
       <Container fluid>
-        <Row>
-          <Col>
+        <Row className='align-items-center'>
+          <Col lg={6}>
             <h3 className='mb-4'>Who was Jack the Ripper?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             <Image
               fluid
-              className='mx-auto'
+              className='mx-auto mb-5'
               alt='Jack The Ripper'
               src='https://cdn.mos.cms.futurecdn.net/zonWmCmYFfXfWEdf7p9CQo-970-80.jpg.webp'
             />
           </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
+
           <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='lead ml-5'>
               There are some historical mysteries that may never be solved.
               Sometimes, that's because the relevant excavated material has been
               lost or an archaeological site has been destroyed. Other times,
@@ -75,26 +68,10 @@ const UnsolvedScreen = () => {
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
-        <Row>
-          <Col>
-            <h3 className='mb-4'>Where is Jimmy Hoffa?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image
-              fluid
-              className='mx-auto'
-              alt='Jimmy Hoffa'
-              src='https://cdn.mos.cms.futurecdn.net/idUfMknHuX7npNxGQvuE3H-970-80.jpg.webp'
-            />
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
+        <Row className='align-items-center'>
           <Col className='text-center'>
-            <p className='lead w-75'>
+            <h3 className='mb-4'>Where is Jimmy Hoffa?</h3>
+            <p className='lead mr-5'>
               The teamster union leader known for his involvement in organized
               crime disappeared in Oakland County, Michigan, on July 30, 1975,
               and is now presumed to be dead. The identity of his killer(s) and
@@ -102,9 +79,7 @@ const UnsolvedScreen = () => {
               forensic anthropologists have searched a number of sites in
               Detroit and Oakland County to no avail.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mr-5'>
               One popular theory was that Hoffa's body was buried beneath Giants
               Stadium in New Jersey. However, this theory has been debunked. The
               identity of his killer is also unclear. Before his death in 2006,
@@ -117,32 +92,32 @@ const UnsolvedScreen = () => {
               remains will ever be found.
             </p>
           </Col>
+          <Col lg={6}>
+            <Image
+              fluid
+              className='mx-auto mt-5 mb-3'
+              alt='Jimmy Hoffa'
+              src='https://cdn.mos.cms.futurecdn.net/idUfMknHuX7npNxGQvuE3H-970-80.jpg.webp'
+            />
+          </Col>
         </Row>
       </Container>
       <br />
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
-        <Row>
-          <Col>
+        <Row className='align-items-center'>
+          <Col lg={6}>
             <h3 className='mb-4'>Where is Cleopatra's tomb?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
             <Image
               fluid
-              className='mx-auto'
+              className='mx-auto mb-5'
               alt='The Tomb of Cleopatra'
               src='https://cdn.mos.cms.futurecdn.net/osinsvsEaUDLtBJND89VZQ-970-80.jpg.webp'
             />
           </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+          <Col>
+            <p className='lead ml-5'>
               Ancient writers claim that Cleopatra VIIand her lover, Mark
               Antony, were buried together in a tomb after their deaths in 30
               B.C. The writer Plutarch (A.D. 45-120) wrote that the tomb was
@@ -150,9 +125,7 @@ const UnsolvedScreen = () => {
               "lofty and beautiful" monument containing treasures made of gold,
               silver, emeralds, pearls, ebony and ivory.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='ml-5'>
               The location of the tomb remains a mystery. In 2010, Zahi Hawass,
               Egypt's former antiquities minister, conducted excavations at a
               site near Alexandria now called Taposiris Magna, which contains a
@@ -166,30 +139,15 @@ const UnsolvedScreen = () => {
           </Col>
         </Row>
       </Container>
+
       <br />
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
-        <Row>
-          <Col>
+        <Row className='align-items-center'>
+          <Col lg={6}>
             <h3 className='mb-4'>Who killed JFK?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image
-              fluid
-              className='mx-auto'
-              alt='JFK'
-              src='https://cdn.mos.cms.futurecdn.net/54yKP2YsDHTpu24ZQFefFX-970-80.jpg.webp'
-            />
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='lead mr-5'>
               This is probably the biggest mystery in American history that will
               never be resolved to everyone's satisfaction. On Nov. 22, 1963,
               President John F. Kennedy was shot in Dallas by Lee Harvey Oswald
@@ -198,9 +156,7 @@ const UnsolvedScreen = () => {
               shot by nightclub owner Jack Ruby. Ruby died of lung cancer on
               Jan. 3, 1967.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='lead mr-5'>
               The most widely accepted explanation is that Oswald killed JFK on
               his own and Ruby killed Oswald, on his own volition. Ruby's stated
               motivation was to spare Jacqueline Kennedy "the discomfiture of
@@ -213,32 +169,29 @@ const UnsolvedScreen = () => {
               reached.
             </p>
           </Col>
-        </Row>
-      </Container>
-      <br />
-      <hr className='bg-secondary' />
-      <br />
-      <Container fluid>
-        <Row>
-          <Col>
-            <h3 className='mb-4'>Is there a money pit on Oak Island?</h3>
-          </Col>
-        </Row>
-        <Row>
           <Col>
             <Image
               fluid
-              className='mx-auto'
-              alt='Oak Island'
-              src='https://cdn.mos.cms.futurecdn.net/E74roC9jPJ9EsHf7JXajUZ-970-80.jpg.webp'
+              className='ml-3 mt-5'
+              alt='JFK'
+              src='https://cdn.mos.cms.futurecdn.net/54yKP2YsDHTpu24ZQFefFX-970-80.jpg.webp'
             />
           </Col>
         </Row>
       </Container>
       <Container fluid className='mt-5'>
         <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+          <Col className='text-center'></Col>
+        </Row>
+      </Container>
+      <br />
+      <hr className='bg-secondary' />
+      <br />
+      <Container fluid>
+        <Row className='align-items-center'>
+          <Col lg={6}>
+            <h3 className='mb-4'>Is there a money pit on Oak Island?</h3>
+            <p className='lead'>
               For more than two centuries, stories have circulated that Oak
               Island, located off Nova Scotia, Canada, held a money pit of
               buried treasure — supposedly left by the pirate Capt. William
@@ -246,9 +199,7 @@ const UnsolvedScreen = () => {
               millions of dollars have traveled to the island searching for the
               lost treasure, to no avail.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mb-5'>
               Despite centuries of searching no treasure has been found on Oak
               Island. Nevertheless that doesn't stop people from trying to find
               it. A History Channel show called the "Curse of Oak Island"
@@ -256,32 +207,34 @@ const UnsolvedScreen = () => {
               fourth season in 2016.
             </p>
           </Col>
-        </Row>
-      </Container>
-      <br />
-      <hr className='bg-secondary' />
-      <br />
-      <Container fluid>
-        <Row>
-          <Col>
-            <h3 className='mb-4'>Is the Copper Scroll treasure real?</h3>
-          </Col>
-        </Row>
-        <Row>
           <Col>
             <Image
               fluid
-              className='mx-auto'
-              alt='Copper Scroll treasure'
-              src='https://cdn.mos.cms.futurecdn.net/UqiPJqVY72djUbUGSo9Hha-970-80.jpg.webp'
+              className='ml-5 mb-5'
+              alt='Oak Island'
+              src='https://cdn.mos.cms.futurecdn.net/E74roC9jPJ9EsHf7JXajUZ-970-80.jpg.webp'
             />
           </Col>
         </Row>
       </Container>
-      <Container fluid className='mt-5'>
-        <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+
+      <br />
+      <hr className='bg-secondary' />
+      <br />
+      <Container fluid>
+        <Row className='align-items-center'>
+          <Col lg={6}>
+            <h3 className='mb-4'>Is the Copper Scroll treasure real?</h3>
+            <Image
+              fluid
+              style={{ height: '500px' }}
+              className='mb-5'
+              alt='Copper Scroll treasure'
+              src='https://cdn.mos.cms.futurecdn.net/UqiPJqVY72djUbUGSo9Hha-970-80.jpg.webp'
+            />
+          </Col>
+          <Col>
+            <p className='lead'>
               Another treasure tale that will probably never be resolved is more
               ancient. In 1952 a copper scroll was found by archaeologists in a
               cave, along with other Dead Sea Scrolls, at the site of Qumran. As
@@ -290,9 +243,7 @@ const UnsolvedScreen = () => {
               treasure — so much, in fact, that some scholars believe that it is
               impossible for it to exist.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mb-5'>
               The scroll dates back more than 1,900 years to a time when the
               Roman Empire controlled the Qumran area. There were a number of
               revolts against Roman rule at the time the scroll was written, and
@@ -305,41 +256,24 @@ const UnsolvedScreen = () => {
           </Col>
         </Row>
       </Container>
+
       <br />
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
-        <Row>
-          <Col>
+        <Row className='align-items-center'>
+          <Col lg={6}>
             <h3 className='mb-4'>
               What's the fate of the Ark of the Covenant?
             </h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image
-              fluid
-              className='mx-auto'
-              alt='Ark of the Covenant'
-              src='https://cdn.mos.cms.futurecdn.net/48KgZvQUJqk5Umf9oizJqd-970-80.jpg.webp'
-            />
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='lead mr-5'>
               In 587 B.C., a Babylonian army, under King Nebuchadnezzar II,
               conquered Jerusalem, sacking the city and destroying the First
               Temple, a building used by the Jewish people to worship god. The
               First Temple contained the Ark of the Covenant, which carried
               tablets recording the 10 Commandments.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mb-5 mr-5'>
               The fate of the Ark is unclear. Ancient sources indicate that the
               ark was either carried back to Babylonor hidden before the city
               was captured. It's also possible that the ark was destroyed during
@@ -351,19 +285,24 @@ const UnsolvedScreen = () => {
               messiah arrives.
             </p>
           </Col>
+          <Col>
+            <Image
+              fluid
+              className='mx-auto'
+              alt='Ark of the Covenant'
+              src='https://cdn.mos.cms.futurecdn.net/48KgZvQUJqk5Umf9oizJqd-970-80.jpg.webp'
+            />
+          </Col>
         </Row>
       </Container>
+
       <br />
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
-        <Row>
-          <Col>
-            <h3 className='mb-4'>Were the Hanging Gardens of Babylon real?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
+        <Row className='align-items-center'>
+          <Col lg={6}>
+            <h3 className='mb-5'>Were the Hanging Gardens of Babylon real?</h3>
             <Image
               fluid
               className='mx-auto'
@@ -371,12 +310,8 @@ const UnsolvedScreen = () => {
               src='https://cdn.mos.cms.futurecdn.net/UmLwd6ijMcVzYnemUG8CL8-970-80.jpg.webp'
             />
           </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+          <Col className='mt-5'>
+            <p className='lead ml-5'>
               Ancient writers describe a fantastic series of gardens constructed
               at the ancient city of Babylonin modern-day Iraq. It's not clear
               when these gardens were built, but some ancient writers were so
@@ -386,9 +321,7 @@ const UnsolvedScreen = () => {
               the roots of the trees are embedded in an upper terrace rather
               than in the earth."
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mb-5 ml-5'>
               So far, archaeologists who have excavated Babylon have been unable
               to find the remains of a garden that meets this description. This
               has left archaeologists with a question: Did the hanging gardens
@@ -402,30 +335,15 @@ const UnsolvedScreen = () => {
           </Col>
         </Row>
       </Container>
+
       <br />
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
-        <Row>
-          <Col>
+        <Row className='align-items-center'>
+          <Col lg={6} className=''>
             <h3 className='mb-4'>Is there a City of Atlantis?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image
-              fluid
-              className='mx-auto'
-              alt='City of Atlantis'
-              src='https://cdn.mos.cms.futurecdn.net/EzTaDKQgHuE8xeRueSnHLH-970-80.jpg.webp'
-            />
-          </Col>
-        </Row>
-      </Container>
-      <Container fluid className='mt-5'>
-        <Row>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='lead mr-5'>
               Writing in the fourth century B.C., the Greek philosopher Plato
               told a story of a land named Atlantisthat existed in the Atlantic
               Ocean and supposedly conquered much of Europe and Africa in
@@ -433,9 +351,7 @@ const UnsolvedScreen = () => {
               back against Atlantis in a conflict that ends with Atlantis
               vanishing beneath the waves.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mr-5'>
               While no serious scholar believes that this story is literally
               true, some have speculated that the legend could have been
               inspired, in part, by real events that happened in Greek history.
@@ -446,48 +362,51 @@ const UnsolvedScreen = () => {
               suffered considerable damageduring the eruption of Thera, a
               volcano in Greece.
             </p>
-          </Col>
-          <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mr-5 mb-5'>
               Additionally, archaeologists found that the Minoans were
               eventually overcome (or forced to join with) a group of people
               called the Mycenaeans, who were based on mainland Greece. It's
               unlikely that this debate will ever be fully settled.
             </p>
           </Col>
+          <Col>
+            <Image
+              fluid
+              className='ml-5 mb-5'
+              alt='City of Atlantis'
+              src='https://cdn.mos.cms.futurecdn.net/EzTaDKQgHuE8xeRueSnHLH-970-80.jpg.webp'
+            />
+          </Col>
         </Row>
       </Container>
+
       <br />
       <hr className='bg-secondary' />
       <br />
       <Container fluid>
         <Row>
-          <Col>
-            <h3 className='mb-4'>What was Jesus really like?</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
+          <Col className='text-center'>
+            <h3 className='mt-5 mb-5'>What was Jesus really like?</h3>
             <Image
               fluid
-              className='mx-auto'
+              className='mx-auto mb-5'
               alt='Jesus'
               src='https://cdn.mos.cms.futurecdn.net/J6BSikcXbhXSJCDLmvkMCf-970-80.jpg.webp'
             />
           </Col>
         </Row>
-      </Container>
-      <Container fluid className='mt-5'>
         <Row>
           <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='lead'>
               The earliest surviving gospels date to the second century, almost
               100 years after the life of Jesus (although recently, it was
               announced that a possible first-century fragmenthad been found).
             </p>
           </Col>
+        </Row>
+        <Row>
           <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className=''>
               The lack of surviving first-century texts about Jesus leave
               biblical scholars with a number of questions. When were the
               gospels written? How many of the stories actually took place? What
@@ -499,8 +418,10 @@ const UnsolvedScreen = () => {
               house is unknown.
             </p>
           </Col>
+        </Row>
+        <Row>
           <Col className='text-center'>
-            <p className='lead w-75'>
+            <p className='mb-3'>
               Although new research will provide more insight, scholars think
               it's unlikely they will ever fully know what Jesus was really
               like.
@@ -508,6 +429,9 @@ const UnsolvedScreen = () => {
           </Col>
         </Row>
       </Container>
+      <br />
+      <hr className='bg-secondary mb-5' />
+      <br />
     </div>
   )
 }
