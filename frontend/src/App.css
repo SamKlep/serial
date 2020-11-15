@@ -12,6 +12,10 @@ body {
   height: 100%;
 }
 
+.serial-links {
+  text-decoration: none;
+}
+
 /* Cards */
 .card-img-top {
   width: 100%;
@@ -33,19 +37,11 @@ body {
 main {
   min-height: 80vh;
 }
-@media (max-width: 900px) {
-  /* .what-content {
-    font-size: 16px !important;
-  } */
-}
 
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
-  /* .what-content {
-    font-size: 16px !important;
-  } */
 }
 
 @media (max-width: 500px) {
@@ -58,12 +54,3 @@ main {
     padding-bottom: 4px !important;
   }
 }
-
-/* Small devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-/* @media (min-width: 992px) { ... } */
-
-/* Large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */

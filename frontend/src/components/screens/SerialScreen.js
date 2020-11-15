@@ -23,7 +23,7 @@ const SerialScreen = ({ match }) => {
       <Link className='btn btn-light my-3' to='/'>
         Go Back
       </Link>
-      <Row>
+      <Row className='justify-content-md-center  mb-5'>
         <Col md={6}>
           <Image src={serial.image} alt={serial.name} fluid />
         </Col>

@@ -32,6 +32,7 @@ const HomeContainer = () => {
       <Jumbotron>
         <h1 className='text-danger'>Top 20 Serial Killers</h1>
       </Jumbotron>
+
       <Row>
         <br />
         <Col>
